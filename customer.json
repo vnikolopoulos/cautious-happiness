@@ -1,0 +1,121 @@
+[
+    {
+        "order":{
+            "ID":"1-107934420795"
+        },
+        "customer":{
+            "name":"Παπαδόπουλος Γεώργιος",
+            "customerValue":"",
+            "value360":"NA",
+            "code":"1-466-966",
+            "billing":"ΚΕΡΚΥΡΑΣ 62",
+            "city":"Αθήνα",
+            "country":"Ν.Αττικής",
+            "contact":"6985645871",
+            "market":"Επαγγελματικές Επιστημ. Δραστ.",
+            "occup":"Ελεύθερος Επαγγελματίας"
+        },
+        "promotion":{
+            "title":"COSMOTE DP24 XL_24 Μήνες"
+        },
+        "orderDetails":{
+            "type":"TERMINATION",
+            "subType":"TERMINATION",
+            "status":"Submited",
+            "duration":"2 days 15 hours",
+            "category":"'Wholesale' product"
+        },
+        "creatorDetails":{
+            "name":"OTE",
+            "pos":"Call center",
+            "channel":"WNP",
+            "user":"SADMIN",
+            "creationTime":"1/1/2020 12:01:31 π.μ.",
+            "submissionTime":"1/1/2020 12:01:44 π.μ."
+        },
+        "totalEventStatus":{
+            "pending":36,
+            "inProgress":5,
+            "completed":1
+        },
+        "orderLine":{
+            "promotion":{
+                "name":"DELETE: COSMOTEDP24 XL_24 μήνες",
+                "itemType":{
+                    "name":"Product",
+                    "items":{
+                        "itemName1":{
+                            "name":"Access",
+                            "serviceNum":"-",
+                            "fictionalNum":"-",
+                            "status":"Provisioning",
+                            "action":"Delete",
+                            "installer":""                        
+                        },
+                        "itemName2":{
+                            "name":"ADSL Access",
+                            "serviceNum":"2108826759",
+                            "fictionalNum":"-",
+                            "status":"Provisioning",
+                            "action":"Delete",
+                            "installer":""
+                        },
+                        "itemName3":{
+                            "name":"Base Offer",
+                            "serviceNum":"-",
+                            "fictionalNum":"-",
+                            "status":"Submitted",
+                            "action":"Delete",
+                            "installer":""
+                        },
+                        "itemName4":{
+                            "name":"Caller Line id Presertation Free",
+                            "serviceNum":"-",
+                            "fictionalNum":"-",
+                            "status":"Submitted",
+                            "action":"Delete",
+                            "installer":""
+                        },
+                        "itemName5":{
+                            "name":"Internet",
+                            "serviceNum":"-",
+                            "fictionalNum":"-",
+                            "status":"Provisioning",
+                            "action":"Delete",
+                            "installer":""
+                        }
+                    }
+                }
+            }
+        },
+        "orderDurationPrediction":{
+            "text":"Τα χαρακτηριστικά της παραγγελείας δεν υποστηρίζουν πρόβλεψη."
+        },
+        "businessEvent":{
+            "event01":{
+                "stage":"Fullfilment",
+                "ownerGroup":"Forthnet",
+                "eventName":"Αναμονή Απάντησης Παρόχου",
+                "description":"Αναμονή Απάντησης Παρόχου",
+                "startDate":"12/30/2019",
+                "endDate":""
+            },
+            "event02":{
+                "stage":"Fullfilment",
+                "ownerGroup":"Forthnet",
+                "eventName":"Αναμονή Απάντησης Παρόχου",
+                "description":"Αναμονή Απάντησης Παρόχου",
+                "startDate":"12/25/2019",
+                "endDate":"12/28/2019"
+            },
+            "event03":{
+                "stage":"Fullfilment",
+                "ownerGroup":"Forthnet",
+                "eventName":"Αναμονή Απάντησης Παρόχου",
+                "description":"Αναμονή Απάντησης Παρόχου",
+                "startDate":"11/25/2019",
+                "endDate":"12/10/2019"
+            }
+        }
+    }
+]
