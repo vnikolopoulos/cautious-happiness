@@ -125,7 +125,7 @@
             "event01":{
                 "status":"Completed",
                 "actualStatus":"Completed",
-                "ownerGroup":"-"
+                "ownerGroup":"-",
                 "stage":"Provisioning",
                 "system":"UCM",
                 "eventName":"SyncCustomerFunction",
