@@ -121,6 +121,20 @@
         "supportingEvents":{},
         "technicalStops":{},
         "provisioningMilestones":{},
-        "technicalEvents":{}
+        "technicalEvents":{
+            "event01":{
+                "status":"Completed",
+                "actualStatus":"Completed",
+                "ownerGroup":"-"
+                "stage":"Provisioning",
+                "system":"UCM",
+                "eventName":"SyncCustomerFunction",
+                "description":"Διαδικασία ανάκτησης και ενημέρωσης στοιχείων πελάτη",
+                "startDate":"1/1/2020",
+                "startTime":"00:03:07",
+                "endDate":"1/1/2020",
+                "endTime":"00:03:30"
+            }
+        }
     }
 ]
