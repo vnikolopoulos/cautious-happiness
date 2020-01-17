@@ -134,7 +134,47 @@
                 "startTime":"00:03:07",
                 "endDate":"1/1/2020",
                 "endTime":"00:03:30"
+            },
+            "event02":{
+                "status":"In Progress",
+                "actualStatus":"Submitted",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"Siebel",
+                "eventName":"Order Flow",
+                "description":"Η ροή της παραγγελίας είναι ενεργή",
+                "startDate":"1/1/2020",
+                "startTime":"00:01:31",
+                "endDate":"",
+                "endTime":""
+            },
+            "event03":{
+                "status":"In Progress",
+                "actualStatus":"In Progress",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"SOM",
+                "eventName":"Fullfill Provisioning Function",
+                "description":"Διαδικασία ελέγχου υλοποίησης Υπηρεσιών παραγγελίας",
+                "startDate":"1/1/2020",
+                "startTime":"00:03:30",
+                "endDate":"",
+                "endTime":""
+            },
+            "event04":{
+                "status":"Pending",
+                "actualStatus":"Pending",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"Customer Registry System",
+                "eventName":"CustomerRegistryfunction",
+                "description":"Διαδικασία εγγραφής/διαγραφής πελάτη από τον κατάλογο του μητρώου 11",
+                "startDate":"",
+                "startTime":"",
+                "endDate":"",
+                "endTime":""
             }
+            
         }
     }
 ]
