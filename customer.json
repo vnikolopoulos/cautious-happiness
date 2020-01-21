@@ -173,6 +173,45 @@
                 "startTime":"",
                 "endDate":"",
                 "endTime":""
+            },
+            "event05":{
+                "status":"In Progress",
+                "actualStatus":"In Progress",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"WPN",
+                "eventName":"Update WPN Function",
+                "description":"ΕΝΗΜΕΡΩΣΗ NP ΓΙΑ ΤΗΝ ΕΞΕΛΙΞΗ ΤΗΣ ΠΑΡΑΓΓΕΛΙΑΣ ΚΑΤΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ(PROVISIONING)",
+                "startDate":"1/1/2020",
+                "startTime":"00:03:35",
+                "endDate":"",
+                "endTime":""
+            },
+            "event06":{
+                "status":"Pending",
+                "actualStatus":"Pending",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"Geneva",
+                "eventName":"BillingDeactivationFunction",
+                "description":"ΤΙΜΟΛΟΓΗΣΗ ΑΠΟΧΡΕΩΣΗ ΠΡΟΙΟΝΤΟΣ",
+                "startDate":"",
+                "startTime":"",
+                "endDate":"",
+                "endTime":""
+            },
+            "event07":{
+                "status":"Pending",
+                "actualStatus":"Pending",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"Siebel",
+                "eventName":"CompletePromoUpdateFunction",
+                "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ ΣΤΟ SIEBLE",
+                "startDate":"",
+                "startTime":"",
+                "endDate":"",
+                "endTime":""
             }
             
         }
