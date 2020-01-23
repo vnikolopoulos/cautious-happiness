@@ -34,8 +34,8 @@
             "submissionTime":"1/1/2020 12:01:44 π.μ."
         },
         "totalEventStatus":{
-            "pending":36,
-            "inProgress":5,
+            "pending":3,
+            "inProgress":3,
             "completed":1
         },
         "orderLine":{
