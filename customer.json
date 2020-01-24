@@ -142,11 +142,11 @@
             },
             "event02":{
                 "stage":"Fullfilment",
-                "ownerGroup":"Forthnet",
-                "eventName":"Αναμονή Απάντησης Παρόχου",
-                "description":"Αναμονή Απάντησης Παρόχου",
-                "startDate":"12/25/2019",
-                "endDate":"12/28/2019"
+                "ownerGroup":"TTLP Αλυσίδας",
+                "eventName":"Κατασκευή βρόχγου VPU",
+                "description":"Εργασία πεδίου ΝΕΟ",
+                "startDate":"1/9/2020",
+                "endDate":""
             },
             "event03":{
                 "stage":"Fullfilment",
@@ -155,6 +155,22 @@
                 "description":"Αναμονή Απάντησης Παρόχου",
                 "startDate":"11/25/2019",
                 "endDate":"12/10/2019"
+            },
+            "event04":{
+                "stage":"Fullfilment",
+                "ownerGroup":"provider",
+                "eventName":"Κατασκευή βρόχγου VPU - LIGHT",
+                "description":"Εργασία πεδίου ΟΛΟΚΛΗΡΩΣΗ",
+                "startDate":"1/7/2020",
+                "endDate":"1/22/2020"
+            },
+            "event05":{
+                "stage":"Fullfilment",
+                "ownerGroup":"TTLP ΕΥΒΟΙΑΣ",
+                "eventName":"ΠΑΡΟΧΗ VPU LIGHT - ΑΝΑΜΟΝΗ ΓΙΑ ΑΠΟΔΧΗ",
+                "description":"ΠΑΡΟΧΗ ΕΝΕΡΓΟΥ VPU - LIGHT",
+                "startDate":"1/7/2020",
+                "endDate":""
             }
         },
         "businessEventHistory":{},
