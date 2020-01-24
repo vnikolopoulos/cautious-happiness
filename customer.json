@@ -174,8 +174,28 @@
             }
         },
         "businessEventHistory":{},
-        "supportingEvents":{},
-        "technicalStops":{},
+        "supportingEvents":{
+            "event01":{
+                "stage":"Front Office",
+                "ownerGroup":"G108 ΚΑΤΩ ΑΧΑΪΑ",           
+                "eventName":"ContractManagementBO",
+                "description":"ΚΛΕΙΣΤΟ",
+                "startTime":"25/10/2019 12:12:14 μ.μ.",
+                "endTime":"26/10/2019 9:33:26 π.μ.",
+                "duration":"21 hours 21 minutes"
+            }
+        },
+        "technicalStops":{
+            "event01":{
+                "stage":"Provisioning",
+                "actor":"Residential OSA2-45",
+                "eventName":"ProvisionVoiceFNRPromitheas",
+                "description":"ProvisionVoiceFNRPromitheasLorenIpsum",
+                "startTime":"25/10/2019 12:12:14 μ.μ.",
+                "endTime":"26/10/2019 9:33:26 π.μ.",
+                "duration":"21 hours 21 minutes"
+            }
+        },
         "provisioningMilestones":{},
         "technicalEvents":{
             "event01":{
