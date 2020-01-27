@@ -196,7 +196,17 @@
                 "duration":"21 hours 21 minutes"
             }
         },
-        "provisioningMilestones":{},
+        "provisioningMilestones":{
+            "milestone01":{
+                "count":3
+            },
+            "milestone02":{
+                "count":2
+            },
+            "milestone03":{
+                "count":5
+            }
+        },
         "technicalEvents":{
             "event01":{
                 "status":"Completed",
