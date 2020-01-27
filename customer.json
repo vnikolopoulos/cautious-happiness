@@ -198,13 +198,40 @@
         },
         "provisioningMilestones":{
             "milestone01":{
-                "count":3
+                "step01":{
+                    "title":"Network Resolution"
+                },
+                "step02":{
+                    "title":"Network Resolution 2"
+                },
+                "step03":{
+                    "title":"Network Resolution 3"
+                },
             },
             "milestone02":{
-                "count":2
+                "step01":{
+                    "title":"Name Resolution"
+                },
+                "step02":{
+                    "title":"Name Resolution 2"
+                },
             },
             "milestone03":{
-                "count":5
+                "step01":{
+                    "title":"ID Resolution 1"
+                },
+                "step02":{
+                    "title":"ID Resolution 2"
+                },
+                "step03":{
+                    "title":"ID Resolution 3"
+                },
+                "step04":{
+                    "title":"ID Resolution 4"
+                },
+                "step05":{
+                    "title":"ID Resolution 5"
+                },
             }
         },
         "technicalEvents":{
