@@ -154,14 +154,14 @@
                 "eventName":"Αναμονή Απάντησης Παρόχου",
                 "description":"Αναμονή Απάντησης Παρόχου",
                 "startDate":"11/25/2019",
-                "endDate":"12/25/2019"
+                "endDate":"12/30/2019"
             },
             "event04":{
                 "stage":"Fullfilment",
                 "ownerGroup":"provider",
                 "eventName":"Κατασκευή βρόχγου VPU - LIGHT",
                 "description":"Εργασία πεδίου ΟΛΟΚΛΗΡΩΣΗ",
-                "startDate":"1/7/2020",
+                "startDate":"1/2/2020",
                 "endDate":"1/22/2020"
             },
             "event05":{
