@@ -139,6 +139,32 @@
                 "description":"Αναμονή Απάντησης Παρόχου",
                 "startDate":"12/30/2019",
                 "endDate":"01/15/2020"
+                "history":{
+                    "event01":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"Forthnet",
+                        "eventName":"Αναμονή Απάντησης Παρόχου",
+                        "waitingDesc":"ΣΕ ΑΝΑΜΟΝΗ ΟΛΟΚΛΗΡΩΣΗΣ",
+                        "startDate":"12/30/2019",
+                        "endDate":"01/2/2020"
+                    },
+                    "event02":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"Forthnet",
+                        "eventName":"Αναμονή Απάντησης Παρόχου",
+                        "waitingDesc":"301 - ΝΕΑ ΣΥΝΔΕΣΗ",
+                        "startDate":"1/2/2020",
+                        "endDate":"1/5/2020"
+                    },
+                    "event03":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"Forthnet",
+                        "eventName":"Αναμονή Απάντησης Παρόχου",
+                        "waitingDesc":"ΣΕ ΑΝΑΜΟΝΗ ΟΛΟΚΛΗΡΩΣΗΣ",
+                        "startDate":"1/5/2020",
+                        "endDate":"01/15/2020"
+                    }
+                }
             },
             "event02":{
                 "stage":"Fullfilment",
@@ -147,6 +173,24 @@
                 "description":"Εργασία πεδίου ΝΕΟ",
                 "startDate":"01/15/2020",
                 "endDate":"01/17/2020"
+                "history":{
+                    "event01":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"TTLP Αλυσίδας",
+                        "eventName":"Κατασκευή βρόχγου VPU",
+                        "waitingDesc":"ΣΕ ΑΝΑΜΟΝΗ ΟΛΟΚΛΗΡΩΣΗΣ",
+                        "startDate":"01/15/2020",
+                        "endDate":"01/16/2020"
+                    },
+                    "event02":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"TTLP Αλυσίδας",
+                        "eventName":"Κατασκευή βρόχγου VPU",
+                        "waitingDesc":"301 - ΝΕΑ ΣΥΝΔΕΣΗ",
+                        "startDate":"01/16/2020",
+                        "endDate":"01/17/2020"
+                    }
+                }
             },
             "event03":{
                 "stage":"Fullfilment",
@@ -155,6 +199,24 @@
                 "description":"Αναμονή Απάντησης Παρόχου",
                 "startDate":"01/17/2020",
                 "endDate":"01/26/2020"
+                "history":{
+                    "event01":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"Forthnet",
+                        "eventName":"Αναμονή Απάντησης Παρόχου",
+                        "waitingDesc":"Αναμονή Απάντησης Παρόχου 123",
+                        "startDate":"01/17/2020",
+                        "endDate":"01/20/2020"
+                    },
+                    "event02":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"Forthnet",
+                        "eventName":"Αναμονή Απάντησης Παρόχου",
+                        "waitingDesc":"Αναμονή Απάντησης Παρόχου 456",
+                        "startDate":"01/20/2020",
+                        "endDate":"01/26/2020"
+                    }
+                }
             },
             "event04":{
                 "stage":"Fullfilment",
@@ -163,6 +225,16 @@
                 "description":"Εργασία πεδίου ΟΛΟΚΛΗΡΩΣΗ",
                 "startDate":"01/26/2020",
                 "endDate":"01/27/2020"
+                "history":{
+                    "event01":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"provider",
+                        "eventName":"Κατασκευή βρόχγου VPU - LIGHT",
+                        "waitingDesc":"Κατασκευή βρόχγου VPU - LIGHT",
+                        "startDate":"01/26/2020",
+                        "endDate":"01/27/2020"
+                    }
+                }
             },
             "event05":{
                 "stage":"Fullfilment",
@@ -171,9 +243,18 @@
                 "description":"ΠΑΡΟΧΗ ΕΝΕΡΓΟΥ VPU - LIGHT",
                 "startDate":"01/26/2020",
                 "endDate":""
+                "history":{
+                    "event01":{
+                        "stage":"Fullfilnent",
+                        "ownerGroup":"provider",
+                        "eventName":"ΠΑΡΟΧΗ VPU LIGHT - ΑΝΑΜΟΝΗ ΓΙΑ ΑΠΟΔΧΗ",
+                        "waitingDesc":"ΠΑΡΟΧΗ ΕΝΕΡΓΟΥ VPU - LIGHT",
+                        "startDate":"01/26/2020",
+                        "endDate":""
+                    }
+                }
             }
         },
-        "businessEventHistory":{},
         "supportingEvents":{
             "event01":{
                 "stage":"Front Office",
