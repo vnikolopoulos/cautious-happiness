@@ -36,7 +36,9 @@
         "totalEventStatus":{
             "pending":3,
             "inProgress":3,
-            "completed":1
+            "completed":1,
+            "stuck":1,
+            "waiting":1
         },
         "orderLine":{
             "promotion":{
@@ -416,6 +418,32 @@
                 "system":"Siebel",
                 "eventName":"CompletePromoUpdateFunction",
                 "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ ΣΤΟ SIEBLE",
+                "startDate":"",
+                "startTime":"",
+                "endDate":"",
+                "endTime":""
+            },
+            "event08":{
+                "status":"stuck",
+                "actualStatus":"stuck",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"Siebel",
+                "eventName":"CompletePromoUpdateFunction",
+                "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ",
+                "startDate":"",
+                "startTime":"",
+                "endDate":"",
+                "endTime":""
+            },
+            "event09":{
+                "status":"waiting",
+                "actualStatus":"waiting",
+                "ownerGroup":"-",
+                "stage":"Provisioning",
+                "system":"Siebel",
+                "eventName":"CompletePromoUpdateFunction",
+                "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ",
                 "startDate":"",
                 "startTime":"",
                 "endDate":"",
