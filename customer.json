@@ -139,6 +139,7 @@
                 "description":"Αναμονή Απάντησης Παρόχου",
                 "startDate":"12/30/2019",
                 "endDate":"01/15/2020",
+                "status":"inProgress",
                 "history":{
                     "event01":{
                         "stage":"Fullfilnent",
@@ -146,7 +147,8 @@
                         "eventName":"Αναμονή Απάντησης Παρόχου",
                         "waitingDesc":"ΣΕ ΑΝΑΜΟΝΗ ΟΛΟΚΛΗΡΩΣΗΣ",
                         "startDate":"12/30/2019",
-                        "endDate":"01/2/2020"
+                        "endDate":"01/2/2020",
+                        "status":"completed"
                     },
                     "event02":{
                         "stage":"Fullfilnent",
@@ -154,7 +156,8 @@
                         "eventName":"Αναμονή Απάντησης Παρόχου",
                         "waitingDesc":"301 - ΝΕΑ ΣΥΝΔΕΣΗ",
                         "startDate":"1/2/2020",
-                        "endDate":"1/5/2020"
+                        "endDate":"1/5/2020",
+                        "status":"completed"
                     },
                     "event03":{
                         "stage":"Fullfilnent",
@@ -162,7 +165,8 @@
                         "eventName":"Αναμονή Απάντησης Παρόχου",
                         "waitingDesc":"ΣΕ ΑΝΑΜΟΝΗ ΟΛΟΚΛΗΡΩΣΗΣ",
                         "startDate":"1/5/2020",
-                        "endDate":"01/15/2020"
+                        "endDate":"01/15/2020",
+                        "status":"inProgress"
                     }
                 }
             },
@@ -173,6 +177,7 @@
                 "description":"Εργασία πεδίου ΝΕΟ",
                 "startDate":"01/15/2020",
                 "endDate":"01/17/2020",
+                "status":"completed",
                 "history":{
                     "event01":{
                         "stage":"Fullfilnent",
@@ -180,7 +185,8 @@
                         "eventName":"Κατασκευή βρόχγου VPU",
                         "waitingDesc":"ΣΕ ΑΝΑΜΟΝΗ ΟΛΟΚΛΗΡΩΣΗΣ",
                         "startDate":"01/15/2020",
-                        "endDate":"01/16/2020"
+                        "endDate":"01/16/2020",
+                        "status":"completed"
                     },
                     "event02":{
                         "stage":"Fullfilnent",
@@ -188,7 +194,8 @@
                         "eventName":"Κατασκευή βρόχγου VPU",
                         "waitingDesc":"301 - ΝΕΑ ΣΥΝΔΕΣΗ",
                         "startDate":"01/16/2020",
-                        "endDate":"01/17/2020"
+                        "endDate":"01/17/2020",
+                        "status":"completed"
                     }
                 }
             },
@@ -199,6 +206,7 @@
                 "description":"Αναμονή Απάντησης Παρόχου",
                 "startDate":"01/17/2020",
                 "endDate":"01/26/2020",
+                "status":"stuck",
                 "history":{
                     "event01":{
                         "stage":"Fullfilnent",
@@ -206,7 +214,8 @@
                         "eventName":"Αναμονή Απάντησης Παρόχου",
                         "waitingDesc":"Αναμονή Απάντησης Παρόχου 123",
                         "startDate":"01/17/2020",
-                        "endDate":"01/20/2020"
+                        "endDate":"01/20/2020",
+                        "status":"stuck"
                     },
                     "event02":{
                         "stage":"Fullfilnent",
@@ -214,7 +223,8 @@
                         "eventName":"Αναμονή Απάντησης Παρόχου",
                         "waitingDesc":"Αναμονή Απάντησης Παρόχου 456",
                         "startDate":"01/20/2020",
-                        "endDate":"01/26/2020"
+                        "endDate":"01/26/2020",
+                        "status":"completed"
                     }
                 }
             },
@@ -225,6 +235,7 @@
                 "description":"Εργασία πεδίου ΟΛΟΚΛΗΡΩΣΗ",
                 "startDate":"01/26/2020",
                 "endDate":"01/27/2020",
+                "status":"waiting",
                 "history":{
                     "event01":{
                         "stage":"Fullfilnent",
@@ -232,7 +243,8 @@
                         "eventName":"Κατασκευή βρόχγου VPU - LIGHT",
                         "waitingDesc":"Κατασκευή βρόχγου VPU - LIGHT",
                         "startDate":"01/26/2020",
-                        "endDate":"01/27/2020"
+                        "endDate":"01/27/2020",
+                        "status":"waiting"
                     }
                 }
             },
@@ -243,6 +255,7 @@
                 "description":"ΠΑΡΟΧΗ ΕΝΕΡΓΟΥ VPU - LIGHT",
                 "startDate":"01/26/2020",
                 "endDate":"",
+                "status":"pending",
                 "history":{
                     "event01":{
                         "stage":"Fullfilnent",
@@ -250,7 +263,8 @@
                         "eventName":"ΠΑΡΟΧΗ VPU LIGHT - ΑΝΑΜΟΝΗ ΓΙΑ ΑΠΟΔΧΗ",
                         "waitingDesc":"ΠΑΡΟΧΗ ΕΝΕΡΓΟΥ VPU - LIGHT",
                         "startDate":"01/26/2020",
-                        "endDate":""
+                        "endDate":"",
+                        "status":"pending"
                     }
                 }
             }
