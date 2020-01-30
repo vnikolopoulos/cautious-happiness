@@ -56,7 +56,7 @@
                         },
                         "itemName2":{
                             "name":"ADSL Access",
-                            "serviceNum":"2108826759",
+                            "serviceNum":"210xxxxxx9",
                             "fictionalNum":"-",
                             "status":"Provisioning",
                             "action":"Delete",
@@ -96,7 +96,7 @@
                         },
                         "itemName7":{
                             "name":"ADSL Access",
-                            "serviceNum":"2108826759",
+                            "serviceNum":"210xxxxxx59",
                             "fictionalNum":"-",
                             "status":"Provisioning",
                             "action":"Delete",
