@@ -135,6 +135,7 @@
         },
         "businessEvent":{
             "event01":{
+                "id":"25479167",
                 "stage":"Fullfilment",
                 "ownerGroup":"Forthnet",
                 "eventName":"Αναμονή Απάντησης Παρόχου",
@@ -173,6 +174,7 @@
                 }
             },
             "event02":{
+                "id":"25480067",
                 "stage":"Fullfilment",
                 "ownerGroup":"TTLP Αλυσίδας",
                 "eventName":"Κατασκευή βρόχγου VPU",
@@ -202,6 +204,7 @@
                 }
             },
             "event03":{
+                "id":"84009197",
                 "stage":"Fullfilment",
                 "ownerGroup":"Forthnet",
                 "eventName":"Αναμονή Απάντησης Παρόχου",
@@ -231,6 +234,7 @@
                 }
             },
             "event04":{
+                "id":"55479000",
                 "stage":"Fullfilment",
                 "ownerGroup":"provider",
                 "eventName":"Κατασκευή βρόχγου VPU - LIGHT",
@@ -251,6 +255,7 @@
                 }
             },
             "event05":{
+                "id":"25489123",
                 "stage":"Fullfilment",
                 "ownerGroup":"TTLP ΕΥΒΟΙΑΣ",
                 "eventName":"ΠΑΡΟΧΗ VPU LIGHT - ΑΝΑΜΟΝΗ ΓΙΑ ΑΠΟΔΧΗ",
