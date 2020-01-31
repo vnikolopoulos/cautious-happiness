@@ -34,11 +34,11 @@
             "submissionTime":"1/1/2020 12:01:44 π.μ."
         },
         "totalEventStatus":{
-            "pending":3,
-            "inProgress":3,
-            "completed":1,
-            "stuck":1,
-            "waiting":0
+            "pending":4,
+            "inProgress":4,
+            "completed":3,
+            "stuck":2,
+            "waiting":1
         },
         "orderLine":{
             "promotion":{
@@ -332,111 +332,119 @@
             }
         },
         "technicalEvents":{
-            "event01":{
-                "status":"Completed",
-                "actualStatus":"Completed",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"UCM",
-                "eventName":"SyncCustomerFunction",
-                "description":"Διαδικασία ανάκτησης και ενημέρωσης στοιχείων πελάτη",
-                "startDate":"1/1/2020",
-                "startTime":"00:03:07",
-                "endDate":"1/1/2020",
-                "endTime":"00:03:30"
+            "total":{
+                "pending":3,
+                "inProgress":3,
+                "completed":1,
+                "stuck":1,
+                "waiting":0
             },
-            "event02":{
-                "status":"In Progress",
-                "actualStatus":"Submitted",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"Siebel",
-                "eventName":"Order Flow",
-                "description":"Η ροή της παραγγελίας είναι ενεργή",
-                "startDate":"1/1/2020",
-                "startTime":"00:01:31",
-                "endDate":"",
-                "endTime":""
-            },
-            "event03":{
-                "status":"In Progress",
-                "actualStatus":"In Progress",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"SOM",
-                "eventName":"Fullfill Provisioning Function",
-                "description":"Διαδικασία ελέγχου υλοποίησης Υπηρεσιών παραγγελίας",
-                "startDate":"1/1/2020",
-                "startTime":"00:03:30",
-                "endDate":"",
-                "endTime":""
-            },
-            "event04":{
-                "status":"Pending",
-                "actualStatus":"Pending",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"Customer Registry System",
-                "eventName":"CustomerRegistryfunction",
-                "description":"Διαδικασία εγγραφής/διαγραφής πελάτη από τον κατάλογο του μητρώου 11",
-                "startDate":"",
-                "startTime":"",
-                "endDate":"",
-                "endTime":""
-            },
-            "event05":{
-                "status":"In Progress",
-                "actualStatus":"In Progress",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"WPN",
-                "eventName":"Update WPN Function",
-                "description":"ΕΝΗΜΕΡΩΣΗ NP ΓΙΑ ΤΗΝ ΕΞΕΛΙΞΗ ΤΗΣ ΠΑΡΑΓΓΕΛΙΑΣ ΚΑΤΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ(PROVISIONING)",
-                "startDate":"1/1/2020",
-                "startTime":"00:03:35",
-                "endDate":"",
-                "endTime":""
-            },
-            "event06":{
-                "status":"Pending",
-                "actualStatus":"Pending",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"Geneva",
-                "eventName":"BillingDeactivationFunction",
-                "description":"ΤΙΜΟΛΟΓΗΣΗ ΑΠΟΧΡΕΩΣΗ ΠΡΟΙΟΝΤΟΣ",
-                "startDate":"",
-                "startTime":"",
-                "endDate":"",
-                "endTime":""
-            },
-            "event07":{
-                "status":"Pending",
-                "actualStatus":"Pending",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"Siebel",
-                "eventName":"CompletePromoUpdateFunction",
-                "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ ΣΤΟ SIEBLE",
-                "startDate":"",
-                "startTime":"",
-                "endDate":"",
-                "endTime":""
-            },
-            "event08":{
-                "status":"stuck",
-                "actualStatus":"stuck",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"Siebel",
-                "eventName":"CompletePromoUpdateFunction",
-                "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ",
-                "startDate":"",
-                "startTime":"",
-                "endDate":"",
-                "endTime":""
+            "events":{
+                "event01":{
+                    "status":"Completed",
+                    "actualStatus":"Completed",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"UCM",
+                    "eventName":"SyncCustomerFunction",
+                    "description":"Διαδικασία ανάκτησης και ενημέρωσης στοιχείων πελάτη",
+                    "startDate":"1/1/2020",
+                    "startTime":"00:03:07",
+                    "endDate":"1/1/2020",
+                    "endTime":"00:03:30"
+                },
+                "event02":{
+                    "status":"In Progress",
+                    "actualStatus":"Submitted",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"Siebel",
+                    "eventName":"Order Flow",
+                    "description":"Η ροή της παραγγελίας είναι ενεργή",
+                    "startDate":"1/1/2020",
+                    "startTime":"00:01:31",
+                    "endDate":"",
+                    "endTime":""
+                },
+                "event03":{
+                    "status":"In Progress",
+                    "actualStatus":"In Progress",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"SOM",
+                    "eventName":"Fullfill Provisioning Function",
+                    "description":"Διαδικασία ελέγχου υλοποίησης Υπηρεσιών παραγγελίας",
+                    "startDate":"1/1/2020",
+                    "startTime":"00:03:30",
+                    "endDate":"",
+                    "endTime":""
+                },
+                "event04":{
+                    "status":"Pending",
+                    "actualStatus":"Pending",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"Customer Registry System",
+                    "eventName":"CustomerRegistryfunction",
+                    "description":"Διαδικασία εγγραφής/διαγραφής πελάτη από τον κατάλογο του μητρώου 11",
+                    "startDate":"",
+                    "startTime":"",
+                    "endDate":"",
+                    "endTime":""
+                },
+                "event05":{
+                    "status":"In Progress",
+                    "actualStatus":"In Progress",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"WPN",
+                    "eventName":"Update WPN Function",
+                    "description":"ΕΝΗΜΕΡΩΣΗ NP ΓΙΑ ΤΗΝ ΕΞΕΛΙΞΗ ΤΗΣ ΠΑΡΑΓΓΕΛΙΑΣ ΚΑΤΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ(PROVISIONING)",
+                    "startDate":"1/1/2020",
+                    "startTime":"00:03:35",
+                    "endDate":"",
+                    "endTime":""
+                },
+                "event06":{
+                    "status":"Pending",
+                    "actualStatus":"Pending",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"Geneva",
+                    "eventName":"BillingDeactivationFunction",
+                    "description":"ΤΙΜΟΛΟΓΗΣΗ ΑΠΟΧΡΕΩΣΗ ΠΡΟΙΟΝΤΟΣ",
+                    "startDate":"",
+                    "startTime":"",
+                    "endDate":"",
+                    "endTime":""
+                },
+                "event07":{
+                    "status":"Pending",
+                    "actualStatus":"Pending",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"Siebel",
+                    "eventName":"CompletePromoUpdateFunction",
+                    "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ ΣΤΟ SIEBLE",
+                    "startDate":"",
+                    "startTime":"",
+                    "endDate":"",
+                    "endTime":""
+                },
+                "event08":{
+                    "status":"stuck",
+                    "actualStatus":"stuck",
+                    "ownerGroup":"-",
+                    "stage":"Provisioning",
+                    "system":"Siebel",
+                    "eventName":"CompletePromoUpdateFunction",
+                    "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ",
+                    "startDate":"",
+                    "startTime":"",
+                    "endDate":"",
+                    "endTime":""
             }
-            
+          }  
         }
     }
 ]
