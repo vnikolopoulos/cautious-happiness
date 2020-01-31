@@ -435,19 +435,6 @@
                 "startTime":"",
                 "endDate":"",
                 "endTime":""
-            },
-            "event09":{
-                "status":"waiting",
-                "actualStatus":"waiting",
-                "ownerGroup":"-",
-                "stage":"Provisioning",
-                "system":"Siebel",
-                "eventName":"CompletePromoUpdateFunction",
-                "description":"ΕΝΗΜΕΡΩΣΗ ΠΡΟΙΟΝΤΩΝ ΠΕΛΑΤΗ",
-                "startDate":"",
-                "startTime":"",
-                "endDate":"",
-                "endTime":""
             }
             
         }
